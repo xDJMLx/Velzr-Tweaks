@@ -1,142 +1,155 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="Velzr Tweaks: Mehr FPS. Weniger Ping. Alles umkehrbar." width="100%">
+  <img src="docs/banner.svg" alt="Velzr Tweaks: More FPS. Less ping. Fully reversible." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/xDJMLx/Velzr-Tweaks/releases/latest"><img alt="Neueste Version" src="https://img.shields.io/github/v/release/xDJMLx/Velzr-Tweaks?style=for-the-badge&color=2f6fe8&label=Version"></a>
-  <a href="https://github.com/xDJMLx/Velzr-Tweaks/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/xDJMLx/Velzr-Tweaks/total?style=for-the-badge&color=2f6fe8&label=Downloads"></a>
-  <img alt="Windows 10 und 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-2f6fe8?style=for-the-badge">
-  <img alt="Kostenlos" src="https://img.shields.io/badge/Preis-kostenlos-2f6fe8?style=for-the-badge">
+  <a href="https://github.com/xDJMLx/Velzr-Tweaks/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/xDJMLx/Velzr-Tweaks?style=for-the-badge&color=2f6fe8&label=Version"></a>
+  <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-2f6fe8?style=for-the-badge">
+  <img alt="Free" src="https://img.shields.io/badge/Price-free-2f6fe8?style=for-the-badge">
 </p>
 
-<h3 align="center">Hol mehr aus deinem PC heraus. Ohne Risiko, ohne Verkaufsmasche.</h3>
+<h3 align="center">Get more out of your PC. No risk, no sales pitch.</h3>
 
 <p align="center">
-  <a href="https://github.com/xDJMLx/Velzr-Tweaks/releases/latest"><b>⬇ Jetzt herunterladen</b></a>
+  <a href="https://github.com/xDJMLx/Velzr-Tweaks/releases/latest"><b>⬇ Download</b></a>
   &nbsp;·&nbsp;
-  <a href="#so-startest-du">So startest du</a>
+  <a href="#getting-started">Getting started</a>
   &nbsp;·&nbsp;
-  <a href="#häufige-fragen">Häufige Fragen</a>
+  <a href="#faq">FAQ</a>
+  &nbsp;·&nbsp;
+  <a href="README.de.md">Deutsch</a>
 </p>
 
 ---
 
-**Velzr Tweaks** stellt Windows für Spiele ein: weniger Hintergrundlast, ruhigere Frametimes, stabilerer Ping, weniger Eingabeverzögerung. Die App erkennt deinen PC (Prozessor, Grafikkarte, Arbeitsspeicher, WLAN, Laptop oder Desktop, Windows 10 oder 11) und schlägt nur das vor, was bei dir etwas bringt. Alles ist vorher gesichert und mit einem Klick rückgängig zu machen.
+**Velzr Tweaks** tunes Windows for gaming: less background load, steadier frame times, a more stable ping and less input lag. The app detects your PC (processor, graphics card, memory, Wi-Fi, laptop or desktop, Windows 10 or 11) and only suggests what actually helps on your machine. Everything is backed up first and can be undone with one click.
 
-## Warum Velzr Tweaks?
+The app speaks your language: it starts in the language of your Windows installation (currently English, German and Spanish, more are coming) and falls back to English otherwise. You can switch the language any time under Settings.
+
+## Why Velzr Tweaks?
 
 | | |
 |---|---|
-| **Alles umkehrbar** | Vor jeder Änderung speichert die App die Originalwerte. „Alles zurücknehmen“ stellt sie wieder her, auch Wochen später. |
-| **Passt zu deinem PC** | Keine Standardliste für alle. Ein schwacher Laptop bekommt andere Empfehlungen als ein High-End-Desktop. |
-| **Für alle Spiele** | Nicht nur für ein Spiel gebaut. Die Empfehlungen wirken in jedem Spiel. |
-| **Du siehst, was es bringt** | Eingebaute FPS-Messung mit Vorher/Nachher-Vergleich, dazu eine Ping-Analyse. Keine Versprechen, sondern Zahlen von deinem PC. |
-| **Transparent** | Jeder Tweak lässt sich aufklappen und zeigt genau, welche Einstellung geändert wird. |
-| **Privat** | Kein Konto, keine Telemetrie. Es werden keine Daten über dich gesendet. |
+| **Everything is reversible** | Before every change the app stores the original values. "Revert all" restores them, even weeks later. |
+| **Fits your PC** | No one-size-fits-all list. A weak laptop gets different recommendations than a high-end desktop. |
+| **For all games** | Not built for a single game. The recommendations work in every game. |
+| **See what it brings** | Built-in FPS measurement with a before/after comparison, plus a ping analysis. No promises, just numbers from your PC. |
+| **Transparent** | Every tweak can be expanded and shows exactly which setting is changed. |
+| **Private** | No account, no telemetry. No data about you is sent anywhere. |
 
-## Ergebnisse
+## Results
 
-| PC | Ergebnis |
+| PC | Result |
 |---|---|
-| Ryzen 7 9700X · RX 6700 XT, Fortnite (Performance-Modus) | von ca. 350 auf ca. 600 FPS im Durchschnitt |
-| Sehr schwacher PC mit Windows 10 | ca. +86 % durchschnittliche FPS |
+| Ryzen 7 9700X · RX 6700 XT, Fortnite (performance mode) | from about 350 to about 600 FPS on average |
+| Very weak PC with Windows 10 | about +86 % average FPS |
 
-> **Wichtig:** Das sind Rückmeldungen von Testern, keine Labormessungen. Wie viel du gewinnst, hängt von deinem PC, deinen Treibern und dem Spiel ab. **Je schwächer der PC und je mehr Hintergrundlast, desto größer der Gewinn.** Starke PCs gewinnen weniger. Prüfe es selbst mit der eingebauten Messung: ein „Vorher“, Tweaks anwenden, ein „Nachher“.
+> **Important:** These are reports from testers, not lab measurements. How much you gain depends on your PC, your drivers and the game. **The weaker the PC and the more background load, the bigger the gain.** Strong PCs gain less. Check it yourself with the built-in measurement: take a "Before", apply the tweaks, take an "After".
 
 ## Screenshots
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/empfohlen.png" alt="Empfohlen"><br><sub><b>Empfohlen:</b> die Auswahl passend zu deinem PC</sub></td>
-    <td width="50%"><img src="docs/screenshots/kategorien.png" alt="Kategorien"><br><sub><b>Tweaks:</b> übersichtlich nach Kategorien</sub></td>
+    <td width="50%"><img src="docs/screenshots/recommended.png" alt="Recommended"><br><sub><b>Recommended:</b> the selection that fits your PC</sub></td>
+    <td width="50%"><img src="docs/screenshots/categories.png" alt="Categories"><br><sub><b>Tweaks:</b> clearly organized by category</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/tweak-liste.png" alt="Tweak-Liste"><br><sub><b>Jeder Tweak</b> erklärt, was er ändert</sub></td>
-    <td><img src="docs/screenshots/game-boost.png" alt="Game Boost"><br><sub><b>Game Boost:</b> automatische Optimierung beim Spielstart</sub></td>
+    <td><img src="docs/screenshots/tweak-list.png" alt="Tweak list"><br><sub><b>Every tweak</b> explains what it changes</sub></td>
+    <td><img src="docs/screenshots/game-boost.png" alt="Game Boost"><br><sub><b>Game Boost:</b> automatic optimization when a game starts</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/messung.png" alt="FPS-Messung"><br><sub><b>Messung:</b> FPS, Ping und Systemlast vorher und nachher</sub></td>
-    <td><img src="docs/screenshots/einstellungen.png" alt="Einstellungen"><br><sub><b>Einstellungen:</b> Windows-Modus, Leichtmodus, Kompatibilität</sub></td>
+    <td><img src="docs/screenshots/measurement.png" alt="FPS measurement"><br><sub><b>Measurement:</b> FPS, ping and system load before and after</sub></td>
+    <td><img src="docs/screenshots/settings.png" alt="Settings"><br><sub><b>Settings:</b> language, Windows mode, lite mode, compatibility</sub></td>
   </tr>
 </table>
 
-## Was drin ist
+## What's inside
 
-- **Empfohlen:** Auswahl nach deiner Hardware, „Sicheres Setup“ als Assistent, Ein-Tasten-Undo.
-- **Über 140 Tweaks** in 8 Kategorien: Leistung, Eingabe und Latenz, Netzwerk, Energie, Grafik, Debloat, Datenschutz, Oberfläche. Gruppiert danach, ob sie zu deinem System passen.
-- **FPS-Messung** in jedem Spiel (wie PresentMon), mit Durchschnitt, 1 % Low und 0,1 % Low.
-- **Ping-Analyse:** zerlegt deinen Ping in WLAN, Internet-Strecke und Verhalten unter Last (Bufferbloat), mit Befund und Vorher/Nachher-Vergleich.
-- **Game Boost:** erhöht die Priorität deines Spiels, hält die feine Timer-Auflösung und beendet auf Wunsch Hintergrundprogramme, solange das Spiel läuft.
-- **Hardware-Tipps:** Die App zeigt auch, was Software nicht lösen kann, zum Beispiel Single-Channel-RAM oder ein nicht aktiviertes EXPO-Profil.
-- **Windows-Updates:** Setzt ein Update Einstellungen zurück, bietet die App „Erneut anwenden“ an.
-- **Windows 10 und 11:** Tweaks, die es nur unter Windows 11 gibt, werden unter Windows 10 ausgeblendet.
-- **Für schwache PCs:** Leichtmodus, sparsame Hintergrundlast, passende Empfehlungen.
-- Dazu Reinigung, Autostart-Verwaltung, Maus-Werkzeuge und Profile zum Exportieren.
+- **Recommended:** a selection based on your hardware, "Safe setup" as a guided wizard, one-key undo.
+- **Over 140 tweaks** in 8 categories: performance, input and latency, network, power, graphics, debloat, privacy, interface. Grouped by whether they fit your system.
+- **FPS measurement** in any game (like PresentMon), with average, 1 % low and 0.1 % low.
+- **Ping analysis:** breaks your ping down into Wi-Fi, internet path and behavior under load (bufferbloat), with findings and a before/after comparison.
+- **Game Boost:** raises the priority of your game, holds the fine timer resolution and, if you like, closes background programs while the game runs.
+- **Hardware tips:** the app also shows what software cannot fix, for example single-channel RAM or a disabled EXPO profile.
+- **Windows updates:** if an update resets settings, the app offers "Apply again".
+- **Windows 10 and 11:** tweaks that only exist on Windows 11 are hidden on Windows 10.
+- **For weak PCs:** lite mode, low background load, fitting recommendations.
+- **Your language:** follows the Windows language automatically, switchable in Settings.
+- Plus cleanup, startup manager, mouse tools and profiles you can export.
 
-## So startest du
+## Getting started
 
-1. **[Velzr-Tweaks-Setup herunterladen](https://github.com/xDJMLx/Velzr-Tweaks/releases/latest)** (Datei `Velzr-Tweaks-Setup-<Version>.exe`).
-2. Ausführen. Windows zeigt eine Warnung, weil der Installer nicht digital signiert ist: **„Weitere Informationen“ → „Trotzdem ausführen“**. Die Administrator-Abfrage bestätigen, sie ist nötig, weil die App Systemeinstellungen ändert.
-3. Im Tab **Empfohlen** auf **„Sicheres Setup“** klicken. Die App legt einen Wiederherstellungspunkt an und wendet die Auswahl an.
-4. Neu starten, spielen, mit der **Messung** prüfen.
+1. **[Download the Velzr Tweaks setup](https://github.com/xDJMLx/Velzr-Tweaks/releases/latest)** (file `Velzr-Tweaks-Setup-<version>.exe`).
+2. Run it. Windows shows a warning because the installer is not digitally signed: **"More info" → "Run anyway"**. Confirm the administrator prompt; it is needed because the app changes system settings.
+3. On the **Recommended** tab click **"Safe setup"**. The app creates a restore point and applies the selection.
+4. Restart, play, and check the result with **Measurement**.
 
-Nicht zufrieden? **„Alles zurücknehmen“** (Taste **R**) oder einfach deinstallieren.
+Not happy? **"Revert all"** (key **R**) or simply uninstall.
 
-## Häufige Fragen
+## FAQ
 
 <details>
-<summary><b>Ist das sicher?</b></summary>
+<summary><b>Is it safe?</b></summary>
 
-Die App verwendet nur dokumentierte Windows-Einstellungen. Vor jeder Änderung werden die Originalwerte gesichert, vor dem ersten Anwenden legt sie auf Wunsch einen Windows-Wiederherstellungspunkt an. Tweaks mit Nebenwirkungen sind als „Experte“ oder „Abwägung“ gekennzeichnet und gehören nicht zur normalen Empfehlung.
+The app only uses documented Windows settings. The original values are stored before every change, and before the first apply it can create a Windows restore point. Tweaks with side effects are marked "Expert" or "Trade-off" and are not part of the normal recommendation.
 </details>
 
 <details>
-<summary><b>Kann ich damit gesperrt werden (Anti-Cheat)?</b></summary>
+<summary><b>Can I get banned for it (anti-cheat)?</b></summary>
 
-Die App verändert keine Spieldateien und greift nicht in Spiele, Anti-Cheat-Systeme oder den Netzwerkverkehr im Spiel ein. Sie ändert Windows-Einstellungen, die jeder auch von Hand setzen kann. Es gibt bewusst keine Funktionen, die Trefferregistrierung oder Spielmechaniken beeinflussen.
+The app does not change game files and does not interfere with games, anti-cheat systems or in-game network traffic. It changes Windows settings that anyone can also set by hand. There are deliberately no features that influence hit registration or game mechanics.
 </details>
 
 <details>
-<summary><b>Warum braucht die App Administratorrechte?</b></summary>
+<summary><b>Why does the app need administrator rights?</b></summary>
 
-Weil Windows-Einstellungen wie Dienste, Energiepläne und Systemregistrierung nur mit Administratorrechten geändert werden dürfen. Ohne sie kann die App nur anzeigen.
+Because Windows settings such as services, power plans and the registry can only be changed with administrator rights. Without them the app can only show information.
 </details>
 
 <details>
-<summary><b>Warum warnt Windows beim Installieren?</b></summary>
+<summary><b>Why does Windows warn me during installation?</b></summary>
 
-Der Installer ist nicht digital signiert (ein Zertifikat kostet Geld). Windows warnt deshalb bei jeder unbekannten Software. Lade ihn nur von dieser Seite herunter. Die Prüfsumme (SHA-256) steht bei jeder Version unter Releases.
+The installer is not digitally signed (a certificate costs money), so Windows warns about any unknown software. Only download it from this page. The checksum (SHA-256) is listed with every release.
 </details>
 
 <details>
-<summary><b>Läuft das unter Windows 10?</b></summary>
+<summary><b>Does it run on Windows 10?</b></summary>
 
-Ja. Die App erkennt die Windows-Version und zeigt nur Tweaks, die dazu passen. Unter Einstellungen → Kompatibilität steht, welche Tweaks zu deinem PC passen und warum der Rest ausgeblendet ist.
+Yes. The app detects the Windows version and only shows tweaks that fit it. Under Settings → Compatibility you can see which tweaks fit your PC and why the rest is hidden.
 </details>
 
 <details>
-<summary><b>Wie viele FPS bringt das?</b></summary>
+<summary><b>How many FPS does it bring?</b></summary>
 
-Das lässt sich nicht pauschal sagen. Bei schwachen PCs mit viel Hintergrundlast sind große Sprünge möglich, bei starken PCs eher kleine. Oft hilft Hardware mehr, zum Beispiel ein zweiter Arbeitsspeicher-Riegel. Die App misst es für dich, damit du nichts glauben musst.
+There is no general answer. On weak PCs with a lot of background load big jumps are possible, on strong PCs rather small ones. Often hardware helps more, for example a second memory stick. The app measures it for you so you do not have to take anything on faith.
 </details>
 
 <details>
-<summary><b>Was kostet das? Was passiert mit meinen Daten?</b></summary>
+<summary><b>What does it cost? What happens to my data?</b></summary>
 
-Es ist kostenlos. Es gibt kein Konto und keine Telemetrie. Die App fragt einmal am Tag bei GitHub nach einer neuen Version (abschaltbar), die Ping-Messungen sprechen mit Cloudflare und Amazon-Rechenzentren. Mehr nicht.
+It is free. There is no account and no telemetry. The app asks GitHub once a day whether a new version exists (can be turned off), and the ping measurements talk to Cloudflare and Amazon data centers. Nothing else.
 </details>
 
 <details>
-<summary><b>Wie bekomme ich Updates?</b></summary>
+<summary><b>How do I get updates?</b></summary>
 
-Die App zeigt oben „Update <Version>“, sobald hier unter Releases eine neue Version erscheint. Du lädst sie herunter und führst sie aus. Einstellungen und Sicherungen bleiben erhalten.
+The app shows "Update <version>" at the top as soon as a new version appears here under Releases. You download it and run it. Settings and backups are kept.
 </details>
 
-## Hilfe und Feedback
+<details>
+<summary><b>Which languages are supported?</b></summary>
 
-Etwas funktioniert nicht oder ein Tweak macht Probleme? Öffne unter **Issues** ein Ticket und hänge die Datei aus **Einstellungen → Diagnose exportieren** an. Sie enthält Programmversion, Systemdaten und Fehlerprotokoll, aber keine persönlichen Daten.
+English, German and Spanish for now. The app picks the language of your Windows installation automatically and uses English if yours is not available yet. You can change the language under Settings.
+</details>
 
-## Hinweis
+## Help and feedback
 
-Velzr Tweaks steht in keiner Verbindung zu Microsoft, Epic Games, AMD, NVIDIA, Intel oder anderen genannten Unternehmen. Alle Marken gehören ihren Inhabern. Die Nutzung erfolgt auf eigene Verantwortung, die vollständigen Bedingungen stehen in der App unter Einstellungen → Über Velzr Tweaks.
+Something does not work or a tweak causes problems? Open a ticket under **Issues** and attach the file from **Settings → Export diagnostics**. It contains the program version, system data and the error log, but no personal data.
 
+## Notice
+
+Velzr Tweaks is not affiliated with Microsoft, Epic Games, AMD, NVIDIA, Intel or any other company mentioned. All trademarks belong to their owners. Use is at your own risk; the full terms are in the app under Settings → About Velzr Tweaks.
+
+---
+
+<p align="center"><sub><a href="CHANGELOG.md">Changelog</a> · <a href="README.de.md">Deutsch</a></sub></p>
