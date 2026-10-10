@@ -24,7 +24,7 @@
 
 **Velzr Tweaks** tunes Windows for gaming: less background load, steadier frame times, a more stable ping and less input lag. The app detects your PC (processor, graphics card, memory, Wi-Fi, laptop or desktop, Windows 10 or 11) and only suggests what actually helps on your machine. Everything is backed up first and can be undone with one click.
 
-The app speaks your language: it starts in the language of your Windows installation (currently English, German and Spanish, more are coming) and falls back to English otherwise. You can switch the language any time under Settings.
+The app speaks your language: it starts in the language of your Windows installation (currently English, German, Spanish, French, Portuguese, Russian, Polish and Turkish) and falls back to English otherwise. You can switch the language any time under Settings.
 
 ## Why Velzr Tweaks?
 
@@ -139,7 +139,7 @@ The app shows "Update <version>" at the top as soon as a new version appears her
 <details>
 <summary><b>Which languages are supported?</b></summary>
 
-English, German and Spanish for now. The app picks the language of your Windows installation automatically and uses English if yours is not available yet. You can change the language under Settings.
+English, German, Spanish, French, Portuguese (Brazil), Russian, Polish and Turkish. The app picks the language of your Windows installation automatically and uses English if yours is not available yet (more languages can be added, see Issues). You can change the language under Settings.
 </details>
 
 ## Help and feedback

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.1
+
+- **More languages:** French, Portuguese (Brazil), Russian, Polish and Turkish join English, German and Spanish. The app picks the language of your Windows installation automatically.
+- The installer now also shows the license page in these languages.
+- Cyrillic text is shown in the app font (Inter) instead of a fallback font.
+- Plural forms follow each language's rules (for example Russian and Polish have three forms).
+
 ## 1.3.0
 
 - **International:** the app now starts in the language of your Windows installation. Available: English, German and Spanish. If your language is not available yet, English is used. Switch the language any time under Settings → Appearance.
