@@ -145,7 +145,7 @@ English, German, Spanish, French, Portuguese (Brazil), Russian, Polish and Turki
 <details>
 <summary><b>The window stays empty or black. What can I do?</b></summary>
 
-This can happen on some PCs, most likely because of the graphics driver. Since version 1.4.1 the app notices an empty window and restarts itself with software rendering. You can also start it manually: right-click the shortcut → Properties → add `--software-render` after the path in "Target". Later you can turn it off under Settings → Software rendering. Problems are written to `%APPDATA%\Velzr Tweaks\data\app.log`; please attach that file when you report an issue.
+This can happen on some PCs, most likely because of the graphics driver. On Windows 10 the app therefore draws its window without the graphics card by default (Settings → Software rendering). If the window is still empty, the app notices it after a few seconds and restarts itself, first with software rendering and then in safe mode. You can also press **F9** in the window to switch to the next mode, or start it manually with `--software-render` or `--safe-mode` (right-click the shortcut → Properties → add it after the path in "Target"). Problems are written to `%APPDATA%\Velzr Tweaks\data\app.log`; please attach that file when you report an issue.
 </details>
 
 ## Help and feedback

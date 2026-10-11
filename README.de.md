@@ -145,7 +145,7 @@ Aktuell Englisch, Deutsch, Spanisch, Französisch, Portugiesisch (Brasilien), Ru
 <details>
 <summary><b>Das Fenster bleibt leer oder schwarz. Was tun?</b></summary>
 
-Das kann auf manchen PCs passieren, wahrscheinlich wegen des Grafiktreibers. Ab Version 1.4.1 erkennt die App ein leeres Fenster und startet sich selbst mit Software-Darstellung neu. Du kannst sie auch von Hand so starten: Rechtsklick auf die Verknüpfung → Eigenschaften → hinter dem Pfad bei „Ziel“ `--software-render` anhängen. Später lässt sich das unter Einstellungen → Software-Darstellung wieder ausschalten. Probleme werden in `%APPDATA%\Velzr Tweaks\data\app.log` protokolliert; hänge diese Datei bitte an, wenn du einen Fehler meldest.
+Das kann auf manchen PCs passieren, wahrscheinlich wegen des Grafiktreibers. Unter Windows 10 zeichnet die App ihr Fenster deshalb standardmäßig ohne Grafikkarte (Einstellungen → Software-Darstellung). Bleibt das Fenster trotzdem leer, merkt die App das nach wenigen Sekunden und startet sich selbst neu, zuerst mit Software-Darstellung, dann im sicheren Modus. Du kannst im Fenster auch **F9** drücken, um zur nächsten Stufe zu wechseln, oder die App von Hand mit `--software-render` oder `--safe-mode` starten (Rechtsklick auf die Verknüpfung → Eigenschaften → hinter dem Pfad bei „Ziel“ anhängen). Probleme werden in `%APPDATA%\Velzr Tweaks\data\app.log` protokolliert; hänge diese Datei bitte an, wenn du einen Fehler meldest.
 </details>
 
 ## Hilfe und Feedback

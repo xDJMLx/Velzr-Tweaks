@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.4
+
+- **More help for an empty window:** on Windows 10 the app now draws its window without the graphics card by default (Settings → Software rendering). If the window stays empty anyway, the app switches itself step by step: software rendering, then safe mode. If nothing helps, a dialog shows the technical details to send to the developer. **F9** in the window switches to the next step by hand; `--safe-mode` starts directly in safe mode.
+- If the window process cannot start at all (a security feature of Windows or other software blocks it), the app jumps straight to safe mode instead of trying the steps one after another.
+- The start log now includes processor, memory and the display mode.
+
 ## 1.4.3
 
 - **Setup at first start:** after the terms (and once after an update) the app asks how it should look: Normal, or Lite mode for weak PCs and laptops (no animations and effects, less background work). Weak PCs are preselected. You can change it later under Settings → Lite mode.
