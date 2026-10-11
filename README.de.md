@@ -50,11 +50,11 @@ Die App spricht deine Sprache: Sie startet in der Sprache deines Windows (aktuel
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/de/recommended.png" alt="Empfohlen"><br><sub><b>Empfohlen:</b> die Auswahl passend zu deinem PC</sub></td>
-    <td width="50%"><img src="docs/screenshots/de/categories.png" alt="Kategorien"><br><sub><b>Tweaks:</b> übersichtlich nach Kategorien</sub></td>
+    <td width="50%"><img src="docs/screenshots/de/recommended.png" alt="Start"><br><sub><b>Start:</b> ein Knopf optimiert alles, was zu deinem PC passt</sub></td>
+    <td width="50%"><img src="docs/screenshots/de/categories.png" alt="Windows-Tweaks"><br><sub><b>Tweaks:</b> jeder Tweak ist ein Knopf, der leuchtet, wenn er an ist</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/de/tweak-list.png" alt="Tweak-Liste"><br><sub><b>Jeder Tweak</b> erklärt, was er ändert</sub></td>
+    <td><img src="docs/screenshots/de/tweak-list.png" alt="Netzwerk-Tweaks"><br><sub><b>Gruppiert</b> danach, wie gut sie zu deinem PC passen</sub></td>
     <td><img src="docs/screenshots/de/game-boost.png" alt="Game Boost"><br><sub><b>Game Boost:</b> automatische Optimierung beim Spielstart</sub></td>
   </tr>
   <tr>
@@ -65,14 +65,14 @@ Die App spricht deine Sprache: Sie startet in der Sprache deines Windows (aktuel
 
 ## Was drin ist
 
-- **Empfohlen:** Auswahl nach deiner Hardware, „Sicheres Setup“ als Assistent, Ein-Tasten-Undo.
-- **Über 140 Tweaks** in 8 Kategorien: Leistung, Eingabe und Latenz, Netzwerk, Energie, Grafik, Debloat, Datenschutz, Oberfläche. Gruppiert danach, ob sie zu deinem System passen.
+- **Start:** Ein Knopf, „Alles optimieren“, wendet alle sinnvollen Tweaks für deinen PC an. „Sicheres Setup“ ist die geführte Variante, Rückgängig geht mit einer Taste.
+- **Über 100 Tweaks** in 7 Kategorien: Windows, Eingabe und Latenz, Netzwerk, Energie, Grafik, Debloat, Fortnite. Jeder Tweak ist ein Knopf, der in deiner Akzentfarbe leuchtet, wenn er aktiv ist. Gruppiert danach, ob sie zu deinem System passen; Tweaks ohne messbaren Effekt auf Tempo, Latenz oder Hintergrundlast sind nicht enthalten.
 - **FPS-Messung** in jedem Spiel (wie PresentMon), mit Durchschnitt, 1 % Low und 0,1 % Low.
 - **Ping-Analyse:** zerlegt deinen Ping in WLAN, Internet-Strecke und Verhalten unter Last (Bufferbloat), mit Befund und Vorher/Nachher-Vergleich.
 - **Game Boost:** erhöht die Priorität deines Spiels, hält die feine Timer-Auflösung und beendet auf Wunsch Hintergrundprogramme, solange das Spiel läuft.
 - **Hardware-Tipps:** Die App zeigt auch, was Software nicht lösen kann, zum Beispiel Single-Channel-RAM oder ein nicht aktiviertes EXPO-Profil.
 - **Windows-Updates:** Setzt ein Update Einstellungen zurück, bietet die App „Erneut anwenden“ an.
-- **Windows 10 und 11:** Tweaks, die es nur unter Windows 11 gibt, werden unter Windows 10 ausgeblendet.
+- **Windows 10 und 11:** Die App erkennt beim Start deine Windows-Version und bietet nur Tweaks an, die dazu passen. Unterstützt werden Windows 10 ab Version 2004 (Build 19041) und Windows 11. Auf älteren Versionen und Windows Server zeigt die App nur Informationen und ändert nichts.
 - **Für schwache PCs:** Leichtmodus, sparsame Hintergrundlast, passende Empfehlungen.
 - **Deine Sprache:** folgt automatisch der Windows-Sprache, in den Einstellungen umstellbar.
 - Dazu Reinigung, Autostart-Verwaltung, Maus-Werkzeuge und Profile zum Exportieren.
@@ -81,7 +81,7 @@ Die App spricht deine Sprache: Sie startet in der Sprache deines Windows (aktuel
 
 1. **[Velzr-Tweaks-Setup herunterladen](https://github.com/xDJMLx/Velzr-Tweaks/releases/latest)** (Datei `Velzr-Tweaks-Setup-<Version>.exe`).
 2. Ausführen. Windows zeigt eine Warnung, weil der Installer nicht digital signiert ist: **„Weitere Informationen“ → „Trotzdem ausführen“**. Die Administrator-Abfrage bestätigen, sie ist nötig, weil die App Systemeinstellungen ändert.
-3. Im Tab **Empfohlen** auf **„Sicheres Setup“** klicken. Die App legt einen Wiederherstellungspunkt an und wendet die Auswahl an.
+3. Auf **Start** auf **„Alles optimieren“** (oder **„Sicheres Setup“** für die geführte Variante) klicken. Die App legt einen Wiederherstellungspunkt an und wendet die Auswahl an.
 4. Neu starten, spielen, mit der **Messung** prüfen.
 
 Nicht zufrieden? **„Alles zurücknehmen“** (Taste **R**) oder einfach deinstallieren.
@@ -115,7 +115,7 @@ Der Installer ist nicht digital signiert (ein Zertifikat kostet Geld). Windows w
 <details>
 <summary><b>Läuft das unter Windows 10?</b></summary>
 
-Ja. Die App erkennt die Windows-Version und zeigt nur Tweaks, die dazu passen. Unter Einstellungen → Kompatibilität steht, welche Tweaks zu deinem PC passen und warum der Rest ausgeblendet ist.
+Ja, ab Windows 10 Version 2004 (Build 19041). Die App erkennt beim Start die Windows-Version und zeigt nur Tweaks, die dazu passen. Ältere Windows-Versionen und Windows Server werden nicht unterstützt: Dort ändert die App nichts. Unter Einstellungen → Kompatibilität steht, welche Tweaks zu deinem PC passen und warum der Rest ausgeblendet ist.
 </details>
 
 <details>

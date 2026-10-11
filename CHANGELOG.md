@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.0
+
+- **New interface:** icon rail on the left, every tweak is a button that lights up in your accent color. One "Optimize everything" button on Home applies all useful tweaks for your PC. Calmer neutral colors, no blur or mouse-light effects, lighter animations.
+- **Fewer, better tweaks:** 39 tweaks with no measurable effect on speed, latency or background load were removed (pure cosmetics, privacy-only switches, placebo tweaks). Tweaks for specific problems or hardware now sit in their own group.
+- Categories are now Windows, Input & latency, Network, Power, Graphics, Debloat and Fortnite.
+- **Windows check at start:** the app shows whether you run Windows 10 or 11 and how many tweaks fit. Supported: Windows 10 from version 2004 (build 19041) and Windows 11. Older versions, Windows Server and unknown versions are read-only: nothing is applied.
+- "Optimize everything" no longer touches tweaks that change visible behavior (Windows search, Remote Desktop, DNS, visual effects) and, on laptops, tweaks that shorten battery life. They stay available as single buttons.
+- Flat buttons without 3D effect, softer glow, smoother and more uniform animations.
+- The free trial and license system were removed: Velzr Tweaks is free, download it from GitHub.
+
 ## 1.3.1
 
 - **More languages:** French, Portuguese (Brazil), Russian, Polish and Turkish join English, German and Spanish. The app picks the language of your Windows installation automatically.

@@ -50,11 +50,11 @@ The app speaks your language: it starts in the language of your Windows installa
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/recommended.png" alt="Recommended"><br><sub><b>Recommended:</b> the selection that fits your PC</sub></td>
-    <td width="50%"><img src="docs/screenshots/categories.png" alt="Categories"><br><sub><b>Tweaks:</b> clearly organized by category</sub></td>
+    <td width="50%"><img src="docs/screenshots/recommended.png" alt="Home"><br><sub><b>Home:</b> one button optimizes everything that fits your PC</sub></td>
+    <td width="50%"><img src="docs/screenshots/categories.png" alt="Windows tweaks"><br><sub><b>Tweaks:</b> every tweak is a button that lights up when it is on</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/tweak-list.png" alt="Tweak list"><br><sub><b>Every tweak</b> explains what it changes</sub></td>
+    <td><img src="docs/screenshots/tweak-list.png" alt="Network tweaks"><br><sub><b>Grouped</b> by how well they fit your PC</sub></td>
     <td><img src="docs/screenshots/game-boost.png" alt="Game Boost"><br><sub><b>Game Boost:</b> automatic optimization when a game starts</sub></td>
   </tr>
   <tr>
@@ -65,14 +65,14 @@ The app speaks your language: it starts in the language of your Windows installa
 
 ## What's inside
 
-- **Recommended:** a selection based on your hardware, "Safe setup" as a guided wizard, one-key undo.
-- **Over 140 tweaks** in 8 categories: performance, input and latency, network, power, graphics, debloat, privacy, interface. Grouped by whether they fit your system.
+- **Home:** one button, "Optimize everything", applies every useful tweak for your PC. "Safe setup" is the guided version, undo is one key.
+- **Over 100 tweaks** in 7 categories: Windows, input and latency, network, power, graphics, debloat, Fortnite. Each tweak is a button that lights up in your accent color when it is on. Grouped by whether they fit your system; tweaks without a measurable effect on speed, latency or background load are not included.
 - **FPS measurement** in any game (like PresentMon), with average, 1 % low and 0.1 % low.
 - **Ping analysis:** breaks your ping down into Wi-Fi, internet path and behavior under load (bufferbloat), with findings and a before/after comparison.
 - **Game Boost:** raises the priority of your game, holds the fine timer resolution and, if you like, closes background programs while the game runs.
 - **Hardware tips:** the app also shows what software cannot fix, for example single-channel RAM or a disabled EXPO profile.
 - **Windows updates:** if an update resets settings, the app offers "Apply again".
-- **Windows 10 and 11:** tweaks that only exist on Windows 11 are hidden on Windows 10.
+- **Windows 10 and 11:** the app detects your Windows version at start and only offers tweaks that fit it. Supported: Windows 10 version 2004 (build 19041) and newer, and Windows 11. On older versions or Windows Server the app only shows information and changes nothing.
 - **For weak PCs:** lite mode, low background load, fitting recommendations.
 - **Your language:** follows the Windows language automatically, switchable in Settings.
 - Plus cleanup, startup manager, mouse tools and profiles you can export.
@@ -81,7 +81,7 @@ The app speaks your language: it starts in the language of your Windows installa
 
 1. **[Download the Velzr Tweaks setup](https://github.com/xDJMLx/Velzr-Tweaks/releases/latest)** (file `Velzr-Tweaks-Setup-<version>.exe`).
 2. Run it. Windows shows a warning because the installer is not digitally signed: **"More info" → "Run anyway"**. Confirm the administrator prompt; it is needed because the app changes system settings.
-3. On the **Recommended** tab click **"Safe setup"**. The app creates a restore point and applies the selection.
+3. On **Home** click **"Optimize everything"** (or **"Safe setup"** for the guided version). The app creates a restore point and applies the selection.
 4. Restart, play, and check the result with **Measurement**.
 
 Not happy? **"Revert all"** (key **R**) or simply uninstall.
@@ -115,7 +115,7 @@ The installer is not digitally signed (a certificate costs money), so Windows wa
 <details>
 <summary><b>Does it run on Windows 10?</b></summary>
 
-Yes. The app detects the Windows version and only shows tweaks that fit it. Under Settings → Compatibility you can see which tweaks fit your PC and why the rest is hidden.
+Yes, from Windows 10 version 2004 (build 19041) on. The app detects the Windows version at start and only shows tweaks that fit it. Older Windows versions and Windows Server are not supported: there the app changes nothing. Under Settings → Compatibility you can see which tweaks fit your PC and why the rest is hidden.
 </details>
 
 <details>
