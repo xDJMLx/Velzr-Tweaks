@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.2
+
+- **Fix for a dark window where nothing loads (Windows 10, animations turned off):** when Windows has "Show animations" switched off (common on weak laptops and after performance tweaks), the app's reduced-motion mode ran its looping loading animations at a speed of a thousandth of a millisecond. That kept the processor busy and the window never finished loading. Reduced motion now simply switches the animations off.
+
 ## 1.4.1
 
 - **Fix for an empty window:** on some PCs (reported on a Windows 10 PC) the window stayed dark and nothing loaded, most likely because of the graphics driver. The app now checks shortly after start whether it shows anything and, if not, restarts itself once with software rendering. It can also be set under Settings → Software rendering or started with `--software-render`.
