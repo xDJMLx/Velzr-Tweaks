@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.3
+
+- **Setup at first start:** after the terms (and once after an update) the app asks how it should look: Normal, or Lite mode for weak PCs and laptops (no animations and effects, less background work). Weak PCs are preselected. You can change it later under Settings → Lite mode.
+- Fixed: clicking the text next to the terms checkbox no longer opens the terms window.
+
 ## 1.4.2
 
 - **Fix for a dark window where nothing loads (Windows 10, animations turned off):** when Windows has "Show animations" switched off (common on weak laptops and after performance tweaks), the app's reduced-motion mode ran its looping loading animations at a speed of a thousandth of a millisecond. That kept the processor busy and the window never finished loading. Reduced motion now simply switches the animations off.
