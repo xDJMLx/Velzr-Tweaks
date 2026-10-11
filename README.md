@@ -142,6 +142,12 @@ The app shows "Update <version>" at the top as soon as a new version appears her
 English, German, Spanish, French, Portuguese (Brazil), Russian, Polish and Turkish. The app picks the language of your Windows installation automatically and uses English if yours is not available yet (more languages can be added, see Issues). You can change the language under Settings.
 </details>
 
+<details>
+<summary><b>The window stays empty or black. What can I do?</b></summary>
+
+This can happen on some PCs, most likely because of the graphics driver. Since version 1.4.1 the app notices an empty window and restarts itself with software rendering. You can also start it manually: right-click the shortcut → Properties → add `--software-render` after the path in "Target". Later you can turn it off under Settings → Software rendering. Problems are written to `%APPDATA%\Velzr Tweaks\data\app.log`; please attach that file when you report an issue.
+</details>
+
 ## Help and feedback
 
 Something does not work or a tweak causes problems? Open a ticket under **Issues** and attach the file from **Settings → Export diagnostics**. It contains the program version, system data and the error log, but no personal data.

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.1
+
+- **Fix for an empty window:** on some PCs (reported on a Windows 10 PC) the window stayed dark and nothing loaded, most likely because of the graphics driver. The app now checks shortly after start whether it shows anything and, if not, restarts itself once with software rendering. It can also be set under Settings → Software rendering or started with `--software-render`.
+- Start errors are shown on screen with restart buttons instead of a blank window, and everything that goes wrong at start is written to the log (`%APPDATA%\Velzr Tweaks\data\app.log`).
+
 ## 1.4.0
 
 - **New interface:** icon rail on the left, every tweak is a button that lights up in your accent color. One "Optimize everything" button on Home applies all useful tweaks for your PC. Calmer neutral colors, no blur or mouse-light effects, lighter animations.

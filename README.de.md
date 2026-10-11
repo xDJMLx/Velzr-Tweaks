@@ -142,6 +142,12 @@ Die App zeigt oben „Update <Version>“, sobald hier unter Releases eine neue 
 Aktuell Englisch, Deutsch, Spanisch, Französisch, Portugiesisch (Brasilien), Russisch, Polnisch und Türkisch. Die App wählt automatisch die Sprache deines Windows und nimmt Englisch, wenn deine noch nicht dabei ist (weitere Sprachen lassen sich ergänzen, dazu ein Ticket unter Issues eröffnen). Unter Einstellungen kannst du die Sprache ändern.
 </details>
 
+<details>
+<summary><b>Das Fenster bleibt leer oder schwarz. Was tun?</b></summary>
+
+Das kann auf manchen PCs passieren, wahrscheinlich wegen des Grafiktreibers. Ab Version 1.4.1 erkennt die App ein leeres Fenster und startet sich selbst mit Software-Darstellung neu. Du kannst sie auch von Hand so starten: Rechtsklick auf die Verknüpfung → Eigenschaften → hinter dem Pfad bei „Ziel“ `--software-render` anhängen. Später lässt sich das unter Einstellungen → Software-Darstellung wieder ausschalten. Probleme werden in `%APPDATA%\Velzr Tweaks\data\app.log` protokolliert; hänge diese Datei bitte an, wenn du einen Fehler meldest.
+</details>
+
 ## Hilfe und Feedback
 
 Etwas funktioniert nicht oder ein Tweak macht Probleme? Öffne unter **Issues** ein Ticket und hänge die Datei aus **Einstellungen → Diagnose exportieren** an. Sie enthält Programmversion, Systemdaten und Fehlerprotokoll, aber keine persönlichen Daten.
