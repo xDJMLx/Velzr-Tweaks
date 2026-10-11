@@ -79,7 +79,7 @@ Die App spricht deine Sprache: Sie startet in der Sprache deines Windows (aktuel
 
 ## So startest du
 
-1. **[Velzr-Tweaks-Setup herunterladen](https://github.com/xDJMLx/Velzr-Tweaks/releases/latest)** (Datei `Velzr-Tweaks-Setup-<Version>.exe`).
+1. **[Velzr-Tweaks-Setup herunterladen](https://github.com/xDJMLx/Velzr-Tweaks/releases/latest)**. Es gibt eine Datei je Windows: **`Velzr-Tweaks-Setup-<Version>-Windows10.exe`** für Windows 10 und **`Velzr-Tweaks-Setup-<Version>-Windows11.exe`** für Windows 11. Du weißt nicht, welches du hast? Windows-Taste + R drücken und `winver` eingeben.
 2. Ausführen. Windows zeigt eine Warnung, weil der Installer nicht digital signiert ist: **„Weitere Informationen“ → „Trotzdem ausführen“**. Die Administrator-Abfrage bestätigen, sie ist nötig, weil die App Systemeinstellungen ändert.
 3. Auf **Start** auf **„Alles optimieren“** (oder **„Sicheres Setup“** für die geführte Variante) klicken. Die App legt einen Wiederherstellungspunkt an und wendet die Auswahl an.
 4. Neu starten, spielen, mit der **Messung** prüfen.

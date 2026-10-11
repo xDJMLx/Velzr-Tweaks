@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.0
+
+- **Two versions, one for Windows 10 and one for Windows 11.** Download `Velzr-Tweaks-Setup-1.5.0-Windows10.exe` or `...-Windows11.exe`. The Windows 10 version is built on an older, well-proven browser engine (Electron 30) and draws its window without the graphics card by default, which avoids the empty window some Windows 10 PCs showed. Both versions have the same tweaks and features.
+- If you run the version for the other Windows, the Home page shows a note with a link to the right download. The update check offers the matching installer.
+
 ## 1.4.4
 
 - **More help for an empty window:** on Windows 10 the app now draws its window without the graphics card by default (Settings → Software rendering). If the window stays empty anyway, the app switches itself step by step: software rendering, then safe mode. If nothing helps, a dialog shows the technical details to send to the developer. **F9** in the window switches to the next step by hand; `--safe-mode` starts directly in safe mode.
