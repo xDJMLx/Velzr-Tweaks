@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.1
+
+- **New: loading screen.** The window now shows the Velzr logo with a spinner and "Checking tweaks and hardware …" from the very first moment and until the start page is filled with real data. Before, the first seconds looked empty and it was unclear whether anything was happening.
+
 ## 1.8.0
 
 - **New: Fortnite ping** (Tools). Measures only, it changes nothing in the game and redirects no game traffic.
