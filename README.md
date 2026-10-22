@@ -35,6 +35,8 @@ The app speaks your language: it starts in the language of your Windows installa
 | **For all games** | Not built for a single game. The recommendations work in every game. |
 | **See what it brings** | Built-in FPS measurement with a before/after comparison, plus a ping analysis. No promises, just numbers from your PC. |
 | **Transparent** | Every tweak can be expanded and shows exactly which setting is changed. |
+| **Proof, not folklore** | Every tweak is labeled *Proven*, *No proof* or *Can hurt* with the reason and a source. What is unproven never goes into "Optimize everything". See [the research](docs/RESEARCH.md). |
+| **Test it on your PC** | The built-in Tweak test measures the FPS, switches a tweak and shows what it really did on your machine. |
 | **Private** | No account, no telemetry. No data about you is sent anywhere. |
 
 ## Results
@@ -68,6 +70,10 @@ The app speaks your language: it starts in the language of your Windows installa
 - **Home:** one button, "Optimize everything", applies every useful tweak for your PC. "Safe setup" is the guided version, undo is one key.
 - **Over 100 tweaks** in 7 categories: Windows, input and latency, network, power, graphics, debloat, Fortnite. Each tweak is a button that lights up in your accent color when it is on. Grouped by whether they fit your system; tweaks without a measurable effect on speed, latency or background load are not included.
 - **FPS measurement** in any game (like PresentMon), with average, 1 % low and 0.1 % low.
+- **PC check:** reads your PC and shows what costs FPS but is not a tweak: a single RAM stick, memory profile off, Resizable BAR off, a graphics card with too few PCIe lanes, a monitor below its refresh rate, frame limits in the Radeon driver. Read-only, with the measured value and a source.
+- **Background check:** measures which programs use processor time right now and marks known troublemakers such as RGB software. Nothing is closed without your click.
+- **Tweak test:** measures the FPS, switches one tweak, measures again and shows what it really does on your PC. "Test all active tweaks" does this for every active tweak one after another and lists the ones that cost FPS.
+- **Fortnite ping:** measures Epic's 16 data centers, names the closest one and shows live whether ping spikes come from your home network or from the path after your router. Includes a ready report for your internet provider. It measures only and never touches the game.
 - **Ping analysis:** breaks your ping down into Wi-Fi, internet path and behavior under load (bufferbloat), with findings and a before/after comparison.
 - **Game Boost:** raises the priority of your game, holds the fine timer resolution and, if you like, closes background programs while the game runs.
 - **Hardware tips:** the app also shows what software cannot fix, for example single-channel RAM or a disabled EXPO profile.

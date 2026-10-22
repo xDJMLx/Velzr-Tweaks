@@ -35,6 +35,8 @@ Die App spricht deine Sprache: Sie startet in der Sprache deines Windows (aktuel
 | **Für alle Spiele** | Nicht nur für ein Spiel gebaut. Die Empfehlungen wirken in jedem Spiel. |
 | **Du siehst, was es bringt** | Eingebaute FPS-Messung mit Vorher/Nachher-Vergleich, dazu eine Ping-Analyse. Keine Versprechen, sondern Zahlen von deinem PC. |
 | **Transparent** | Jeder Tweak lässt sich aufklappen und zeigt genau, welche Einstellung geändert wird. |
+| **Belege statt Forenwissen** | Jeder Tweak trägt die Marke *Belegt*, *Ohne Nachweis* oder *Kann schaden*, mit Begründung und Quelle. Was unbelegt ist, kommt nie in „Alles optimieren“. Siehe [die Recherche](docs/RECHERCHE.md). |
+| **Auf deinem PC testen** | Der eingebaute Tweak-Test misst die FPS, schaltet einen Tweak um und zeigt, was er auf deinem Rechner wirklich getan hat. |
 | **Privat** | Kein Konto, keine Telemetrie. Es werden keine Daten über dich gesendet. |
 
 ## Ergebnisse
@@ -68,6 +70,10 @@ Die App spricht deine Sprache: Sie startet in der Sprache deines Windows (aktuel
 - **Start:** Ein Knopf, „Alles optimieren“, wendet alle sinnvollen Tweaks für deinen PC an. „Sicheres Setup“ ist die geführte Variante, Rückgängig geht mit einer Taste.
 - **Über 100 Tweaks** in 7 Kategorien: Windows, Eingabe und Latenz, Netzwerk, Energie, Grafik, Debloat, Fortnite. Jeder Tweak ist ein Knopf, der in deiner Akzentfarbe leuchtet, wenn er aktiv ist. Gruppiert danach, ob sie zu deinem System passen; Tweaks ohne messbaren Effekt auf Tempo, Latenz oder Hintergrundlast sind nicht enthalten.
 - **FPS-Messung** in jedem Spiel (wie PresentMon), mit Durchschnitt, 1 % Low und 0,1 % Low.
+- **PC-Check:** liest deinen PC und zeigt, was FPS kostet, aber kein Tweak ist: nur ein RAM-Riegel, Speicherprofil aus, Resizable BAR aus, Grafikkarte mit zu wenigen PCIe-Lanes, Monitor unter seiner Bildwiederholrate, Bildraten-Limits im Radeon-Treiber. Nur lesend, mit gemessenem Wert und Quelle.
+- **Hintergrund-Check:** misst, welche Programme gerade Prozessorzeit belegen, und markiert bekannte Störer wie RGB-Software. Ohne deinen Klick wird nichts beendet.
+- **Tweak-Test:** misst die FPS, schaltet einen Tweak um, misst erneut und zeigt, was er auf deinem PC wirklich bewirkt. „Alle aktiven Tweaks prüfen“ macht das nacheinander für jeden aktiven Tweak und listet die auf, die FPS kosten.
+- **Fortnite-Ping:** misst die 16 Rechenzentren von Epic, nennt das nächste und zeigt live, ob Ping-Spitzen aus deinem Heimnetz oder vom Weg nach dem Router kommen. Mit fertigem Bericht für deinen Internetanbieter. Es misst nur und fasst das Spiel nie an.
 - **Ping-Analyse:** zerlegt deinen Ping in WLAN, Internet-Strecke und Verhalten unter Last (Bufferbloat), mit Befund und Vorher/Nachher-Vergleich.
 - **Game Boost:** erhöht die Priorität deines Spiels, hält die feine Timer-Auflösung und beendet auf Wunsch Hintergrundprogramme, solange das Spiel läuft.
 - **Hardware-Tipps:** Die App zeigt auch, was Software nicht lösen kann, zum Beispiel Single-Channel-RAM oder ein nicht aktiviertes EXPO-Profil.
